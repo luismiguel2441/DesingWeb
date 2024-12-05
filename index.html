@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="shortcut icon" href="./FOTOS/DESING WEB.jpg" type="image/x-icon">
 
 <head>
   <meta charset="utf-8">
@@ -37,17 +38,17 @@
 </head>
 
 <body class="index-page">
-
+  <!--ACA ES DONDE ESTA EL MENU-->
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="./FOTOS/DESING WEB.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="./FOTOS/img sin fondo/DESING_WEB-removebg-preview.png" alt="" class="img-fluid rounded-circle">
     </div>
 
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
+    <!--<a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      Uncomment the line below if you also wish to use an image logo
+      <img src="assets/img/logo.png" alt="">
       <h1 class="sitename">Desing Webs</h1>
     </a>
 
@@ -55,8 +56,20 @@
       <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
       <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
       <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-    </div>
+    </div>-->
 
+    <div class="menu-container">
+      <button id="menu-toggle" class="hidden">☰</button>
+      <nav id="menu" class="hidden">
+          <ul>
+              <li><a href="#home">Casa</a></li>
+              <li><a href="#about">Sobre Nosotros</a></li>
+              <li><a href="#photos">Fotos</a></li>
+              <li><a href="#contact">Contactame</a></li>
+          </ul>
+      </nav>
+  </div>
+  
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Casa</a></li>
@@ -65,22 +78,41 @@
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i>Contactame</a></li>
       </ul>
     </nav>
-
   </header>
 
+
+
+
+
+
+
+
+
+
+
   <main class="main">
+    <!--<section id="hero" class="hero section dark-background">
+      <div class="hero-banner">
+        <img src="./FOTOS/UEFA champions league.jpg" alt="Hero Image" class="hero-img">
+        <div class="hero-description">
+          <h1>Desing Webs</h1>
+          <p>Somos un equipo creativo, apasionado e innovador</p>
+        </div>
+      </div>
+    </section>-->
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="./spiderman-imagenes/Fondo-name.jpg" alt="" data-aos="fade-in" class="">
+      <img src="./FOTOS/banner.jpg" alt="" data-aos="fade-in" class="">
+      <!--<img class="img4" src="./FOTOS/img sin fondo/DESING_WEB-removebg-preview.png" alt="logo de la empresa">-->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
           <h2>Desing Webs</h2>
           <p> Somos un equipo <span class="typed" data-typed-items="creativo, apasionado, innovador">que ama el desarrollo web</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
-  </section><!-- /Hero Section -->
+    </section><!-- /Hero Section -->
   
-  <!-- About Section -->
-  <section id="about" class="about section">
+    <!-- About Section -->
+    <section id="about" class="about section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
           <h2>Sobre Nosotros</h2>
@@ -90,11 +122,11 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4 justify-content-center">
               <div class="col-lg-4">
-                  <img src="./FOTOS/DESING WEB.jpg" class="img-fluid" alt="">
+                  <img src="./FOTOS/img sin fondo/DESING_WEB-removebg-preview.png" class="img-fluid" alt="">
               </div>
               <div class="col-lg-8 content">
                   <h2>Conócenos</h2>
-                  <div class="row">
+                  <!--<div class="row">
                       <div class="col-lg-6">
                           <ul>
                               <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.desingwebs.com</span></li>
@@ -109,17 +141,22 @@
                               <li><i class="bi bi-chevron-right"></i> <strong>Servicios:</strong> <span>Desarrollo web, SEO, marketing digital</span></li>
                           </ul>
                       </div>
-                  </div>
+                  </div>-->
                   <p class="py-3">
-                      "En DesingWebs, nos dedicamos a crear experiencias digitales únicas que combinen estética y funcionalidad. Nuestro equipo trabaja de la mano con cada cliente para asegurarse de que sus ideas se conviertan en sitios web impresionantes."
+                      "
+                      En DesingWebs, transformamos ideas en experiencias digitales excepcionales, combinando creatividad, tecnología y diseño estratégico. Nuestro enfoque está centrado en ofrecer sitios web que no solo sean visualmente impresionantes, sino también altamente funcionales y adaptados a las necesidades específicas de cada cliente.
+                      
+                      Nuestro equipo de expertos trabaja en estrecha colaboración con los clientes, escuchando sus ideas, entendiendo sus objetivos y plasmando su visión en plataformas digitales que destaquen. Cada proyecto es una oportunidad para crear algo único, donde la estética y la usabilidad convergen para ofrecer resultados que inspiran y conectan.
+                      
+                      En DesingWebs, no solo construimos sitios web; creamos soluciones digitales que marcan la diferencia. ¿Listo para dar vida a tu proyecto? ¡Hablemos!"
                   </p>
               </div>
           </div>
       </div>
-  </section><!-- /About Section -->
+    </section><!-- /About Section -->
   
     <!-- Stats Section -->
-    <section id="stats" class="stats section">
+    <!--<section id="stats" class="stats section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
     
@@ -131,47 +168,44 @@
               <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
               <p><strong>Clientes satisfechos</strong> <span>Resultados que hablan por sí solos</span></p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>--><!-- End Stats Item -->
     
-          <div class="col-lg-3 col-md-6">
+          <!--<div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="1" class="purecounter"></span>
               <p><strong>Proyectos completados</strong> <span>Cada uno personalizado al detalle</span></p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>--><!-- End Stats Item -->
     
-          <div class="col-lg-3 col-md-6">
+          <!--<div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-laptop"></i>
               <span data-purecounter-start="0" data-purecounter-end="15000" data-purecounter-duration="1" class="purecounter"></span>
               <p><strong>Horas de desarrollo</strong> <span>Perfeccionando cada línea de código</span></p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>--><!-- End Stats Item -->
     
-          <div class="col-lg-3 col-md-6">
+          <!--<div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-award"></i>
               <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
               <p><strong>Reconocimientos obtenidos</strong> <span>Por nuestra dedicación y calidad</span></p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>--><!-- End Stats Item -->
     
         </div>
     
       </div>
-    
-    </section><!-- /Stats Section -->
-    
-        
 
-      </div>
 
-    </section><!-- /Stats Section -->
+
+
+
 
   
 
-
+   <!--GALERIA DE IMAGENES--> 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section light-background">
 
@@ -236,6 +270,8 @@
     <!-- Services Section -->
     
 
+
+    
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
@@ -273,6 +309,11 @@
             </div>
           </div>
 
+
+          
+
+
+
           <div class="col-lg-7">
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
@@ -309,6 +350,35 @@
             </form>
           </div><!-- End Contact Form -->
 
+          <h2>Contacto</h2>
+          <form class="contact-form">
+          <!-- Campos de formulario -->
+          </form>
+          <div class="contact-icons">
+            <!--<img class="img3" src="./FOTOS/img sin fondo/whatsapp-removebg-preview.png" alt="aca esta la imagen de whatsapp">-->
+            <a href="https://wa.me/1234567890" class="whatsapp-link">
+            <i class="bi bi-whatsapp"></i> Contactame
+            </a>
+            <div class="slider">
+              <div class="redes">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/facebook-removebg-preview.png" alt="facebook" style="width: 148px; height: auto;" loading="lazy">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/instagram-removebg-preview.png" alt="instagram" style="width: 53px; height: auto;" loading="lazy">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/twitter-removebg-preview.png" alt="twitter" style="width: 114px; height: auto;" loading="lazy">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/whatsapp-removebg-preview.png" alt="whatsapp" style="width: 147px; height: auto;" loading="lazy">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/facebook-removebg-preview.png" alt="facebook" style="width: 148px; height: auto;" loading="lazy">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/instagram-removebg-preview.png" alt="instagram" style="width: 53px; height: auto;" loading="lazy">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/twitter-removebg-preview.png" alt="twitter" style="width: 114px; height: auto;" loading="lazy">
+                <img class="redsocial1" src="./FOTOS/img sin fondo/whatsapp-removebg-preview.png" alt="whatsapp" style="width: 147px; height: auto;" loading="lazy">
+                
+                <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
+              </div>
+            </div>
+            
+          </div>
+
+
         </div>
 
       </div>
@@ -316,6 +386,19 @@
     </section><!-- /Contact Section -->
 
   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <footer id="footer" class="footer position-relative light-background">
 
@@ -333,6 +416,16 @@
     </div>
 
   </footer>
+
+
+
+
+
+
+
+
+
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

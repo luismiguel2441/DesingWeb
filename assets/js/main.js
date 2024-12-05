@@ -6,6 +6,16 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+document.getElementById('menu-toggle').addEventListener('click', function () {
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('hidden'); // Cambia entre mostrar y ocultar
+});
+
+
+
+
+
 (function() {
   "use strict";
 

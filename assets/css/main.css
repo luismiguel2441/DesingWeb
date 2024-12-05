@@ -10,6 +10,108 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+
+.menu-container {
+  position: relative;
+}
+#menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #333;
+  color: white;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* Oculto por defecto */
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  margin: 10px 0;
+}
+#menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+
+
+
+
+
+/*.redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.redsocial1 {
+  animation: moveSideToSide 3s infinite ease-in-out;
+}*/
+
+/*Definimos la animacion*/
+/*@keyframes moveSideToSide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+
+
+}*/
+
+/* Estilos del contenedor */
+.slider {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  overflow: hidden; /* Oculta el contenido fuera del contenedor */
+  position: relative;
+  background-color: #250225; /* Color de fondo opcional */
+}
+
+/* Estilos del contenedor de imágenes */
+.redes {
+  display: flex;
+  gap: 20px; /* Espacio entre imágenes */
+  animation: slideInfinite 10s linear infinite; /* Animación continua */
+}
+
+/* Estilos de las imágenes */
+.redsocial1 {
+  width: 100px; /* Ajusta el tamaño de las imágenes */
+  height: auto;
+}
+
+/* Animación de desplazamiento continuo */
+@keyframes slideInfinite {
+  0% {
+    transform: translateX(100%); /* Inicia fuera del contenedor, por la derecha */
+  }
+  100% {
+    transform: translateX(-100%); /* Termina fuera del contenedor, por la izquierda */
+  }
+}
+
+/*.img4 {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: 0;
+  margin-top: 20px;
+  position: relative;
+}*/
+
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -19,11 +121,12 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #7e7e7e; /* Background color for the entire website, including individual sections */
+  --background-color: #250225; /* Background color for the entire website, including individual sections */
   --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #149ddd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #1e2022cd; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  /*TENGO QUE ELIMINAR ESTO*/
+  --accent-color: #8A2BE2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #250225; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -33,7 +136,7 @@
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #040b14; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #040b14; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #a8a9b4; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-color: #666770; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #ffffff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -503,7 +606,7 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #250225;
   padding: 60px 0;
   overflow: clip;
 }
